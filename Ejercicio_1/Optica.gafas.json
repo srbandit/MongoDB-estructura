@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6655bb1f709d78705c711bce"
+  },
+  "Marca": "Rayban",
+  "Graduacion": {
+    "Izquierdo": 1,
+    "Derecho": 0
+  },
+  "TipoDeMontura": {
+    "opciones": [
+      "flotante",
+      "pasta",
+      "metalica"
+    ]
+  },
+  "ColorDeMontura": "Negro",
+  "ColorDeVidrio": {
+    "Izquierdo": "",
+    "Derecho": ""
+  },
+  "Precio": 127.0
+}]

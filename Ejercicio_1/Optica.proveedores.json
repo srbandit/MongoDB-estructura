@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "6655b510709d78705c711bc1"
+  },
+  "Nombre": "Miguel Angel",
+  "direccion": {
+    "Calle": "Terra",
+    "Numero": 1245,
+    "Piso": 3,
+    "Puerta": 6,
+    "Ciudad": "Barcelona",
+    "CodigoPostal": 12345,
+    "Pais": "España"
+  },
+  "Telefono": 65445712,
+  "Fax": 145623,
+  "NIF": "59267157K"
+}]

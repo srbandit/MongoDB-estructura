@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "6656008766da1dcb3af20eed"
+  },
+  "Nombre": "Martín Ibañez",
+  "FechaDeVenta": [
+    {
+      "type": {
+        "$oid": "6655ae09709d78705c711bb0"
+      },
+      "ref": "clientes",
+      "venta": {
+        "$date": "1999-12-31T23:00:00.000Z"
+      }
+    }
+  ],
+  "HaVendido": [
+    {
+      "type": {
+        "$oid": "6655bb1f709d78705c711bce"
+      },
+      "ref": "gafas",
+      "marca": ""
+    }
+  ]
+}]

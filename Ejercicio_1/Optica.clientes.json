@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "6655ae09709d78705c711bb0"
+  },
+  "Nombre": "Juan Perez",
+  "Telefono": 678921235,
+  "Email": "mail@email.com",
+  "Register date": {
+    "$date": "2002-03-11T23:00:00.000Z"
+  },
+  "Last shoppings": [
+    {
+      "type": {
+        "$oid": "6655bb1f709d78705c711bce"
+      },
+      "ref": "gafas",
+      "Marca": "Rayban",
+      "Graduacion": {
+        "Izquierdo": 2.3,
+        "Derecho": 2
+      },
+      "TipoDeMontura": {
+        "opciones": [
+          "metalica"
+        ]
+      },
+      "ColorDeMontura": "Negro",
+      "ColorDeVidrio": {
+        "Izquierdo": "",
+        "Derecho": ""
+      },
+      "Precio": 127.0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66560bdc66da1dcb3af20f05"
+  },
+  "Nombre": "Marta Perez",
+  "Telefono": 678921235,
+  "Email": "mail@email.com",
+  "Register date": {
+    "$date": "2002-03-11T23:00:00.000Z"
+  },
+  "recomended_by": {
+    "$oid": "6655ae09709d78705c711bb0"
+  },
+  "Last shoppings": [
+    {
+      "type": {
+        "$oid": "6655bb1f709d78705c711bce"
+      },
+      "ref": "gafas",
+      "Marca": "Rayban",
+      "Graduacion": {
+        "Izquierdo": 2.3,
+        "Derecho": 2
+      },
+      "TipoDeMontura": {
+        "opciones": [
+          "metalica"
+        ]
+      },
+      "ColorDeMontura": "Negro",
+      "ColorDeVidrio": {
+        "Izquierdo": "",
+        "Derecho": ""
+      },
+      "Precio": 127.0
+    }
+  ]
+}]
