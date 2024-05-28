@@ -1,0 +1,18 @@
+{
+    "_id": {
+      "$oid": "6656129766da1dcb3af20f18"
+    },
+    "Nombre": "Googles Associated SL",
+    "direccion": {
+      "Calle": "Fake Street",
+      "Numero": 1245,
+      "Piso": 3,
+      "Puerta": 6,
+      "Ciudad": "California",
+      "CodigoPostal": 12345,
+      "Pais": "EE.UU"
+    },
+    "Telefono": 65445712,
+    "Fax": 145623,
+    "NIF": "59267157K"
+  }

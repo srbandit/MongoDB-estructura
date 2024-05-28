@@ -1,0 +1,38 @@
+{
+    "_id": {
+      "$oid": "66560bdc66da1dcb3af20f05"
+    },
+    "Nombre": "Marta Perez",
+    "Telefono": 678921235,
+    "Email": "mail@email.com",
+    "Register date": {
+      "$date": "2002-03-11T23:00:00.000Z"
+    },
+    "recomended_by": {
+      "$oid": "6655ae09709d78705c711bb0"
+    },
+    "Last shoppings": [
+      {
+        "type": {
+          "$oid": "6656114966da1dcb3af20f0f"
+        },
+        "ref": "gafas",
+        "Marca": "Versace",
+        "Graduacion": {
+          "Izquierdo": 0,
+          "Derecho": 0
+        },
+        "TipoDeMontura": {
+          "opciones": [
+            "metalica"
+          ]
+        },
+        "ColorDeMontura": "Negro",
+        "ColorDeVidrio": {
+          "Izquierdo": "",
+          "Derecho": ""
+        },
+        "Precio": 105.75
+      }
+    ]
+  }

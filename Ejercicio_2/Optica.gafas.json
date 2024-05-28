@@ -1,0 +1,51 @@
+[
+{
+  "_id": {
+    "$oid": "6656114966da1dcb3af20f0f"
+  },
+  "Brand": "Versace",
+  "Frame": {
+    "options": [
+      "Metallic"
+    ]
+  },
+  "Provider": [
+    {
+      "type": {
+        "$oid": "6656129766da1dcb3af20f18"
+      },
+      "ref": "proveedores",
+      "name": "Googles Associated SL",
+      "info": {
+        "address": {
+          "treet": "Fake Street",
+          "number": "1245",
+          "floor": 5,
+          "door": 7,
+          "city": "California",
+          "country": "EEUU"
+        },
+        "phone number": 675847932,
+        "fax": 123456,
+        "NIF": "95991095C"
+      }
+    }
+  ],
+  "Precio": 105.75,
+  "Bought By": [
+    {
+      "type": {
+        "$oid": "66560bdc66da1dcb3af20f05"
+      },
+      "ref": "clientes",
+      "Client": "Marta Perez",
+      "Info": {
+        "Telefono": 678921235,
+        "Email": "mail@email.com",
+        "Register date": {
+          "$date": "2002-03-11T23:00:00.000Z"
+        }
+      }
+    }
+  ]
+}]
